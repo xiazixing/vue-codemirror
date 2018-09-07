@@ -3,15 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-// import { codemirror } from 'vue-codemirror'
-// import 'codemirror/lib/codemirror.css'
+import Element from 'element-ui'
+import 'font-awesome/css/font-awesome.min.css'
+import 'element-ui/lib/theme-chalk/index.css'
 Vue.config.productionTip = false
-
+Vue.use(Element)
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
   router,
-  // codemirror,
   components: { App },
   template: '<App/>'
 })

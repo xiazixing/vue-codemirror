@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <router-link to="/">首页</router-link>
+    <router-link to="/home">首页2</router-link>
+     <router-link to="/editor">编辑器</router-link>
+     <router-link to="/music">音乐器</router-link>
     <router-view/>
   </div>
 </template>
